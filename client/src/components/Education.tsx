@@ -7,18 +7,21 @@ const educationData = [
     institution: 'New Horizon College of Engineering, Bengaluru',
     score: 'CGPA: 9.38',
     year: '2021 - 2025',
+    pdfPath: '/assets/1NH22IS086_6th sem.pdf',
   },
   {
     degree: 'Pre-University (PUC)',
     institution: 'Sri Sai Angels PU College, Chikkamagaluru',
     score: 'Percentage: 97.16%',
     year: '2019 - 2021',
+    pdfPath: '/assets/1NH22IS086_MITHUN_PUC.pdf',
   },
   {
     degree: 'SSLC',
     institution: 'Kuvempu Vidyanikethana, Chikkamagaluru',
     score: 'Percentage: 96.48%',
     year: '2018 - 2019',
+    pdfPath: '/assets/1NH22IS086_MITHUN_10th.pdf',
   },
 ];
 
@@ -54,7 +57,10 @@ export function Education() {
                     </div>
                     <div className="flex-1">
                       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
-                        <h3 className="text-xl font-semibold text-foreground">
+                        <h3 
+                          className="text-xl font-semibold text-foreground cursor-pointer hover:text-orange-500 transition-colors duration-200"
+                          onClick={() => window.open(edu.pdfPath, '_blank')}
+                        >
                           {edu.degree}
                         </h3>
                         <span className="text-sm font-medium text-orange-500 px-3 py-1 bg-orange-500/10 rounded-full self-start">

@@ -61,15 +61,6 @@ export function Hero() {
             >
               View Projects
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => scrollToSection('contact')}
-              className="min-h-11 px-8 hover-elevate"
-              data-testid="button-contact-me"
-            >
-              Contact Me
-            </Button>
           </div>
         </div>
 

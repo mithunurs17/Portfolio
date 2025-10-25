@@ -87,20 +87,6 @@ export function About() {
               </div>
             </div>
 
-            <div className="border-t border-border pt-8">
-              <h3 className="text-2xl font-semibold mb-4">Hobbies & Interests</h3>
-              <div className="flex flex-wrap gap-3">
-                {['Gym', 'Video Editing'].map((hobby) => (
-                  <span
-                    key={hobby}
-                    className="px-4 py-2 bg-accent text-accent-foreground rounded-full text-sm font-medium hover-elevate transition-all"
-                    data-testid={`hobby-${hobby.toLowerCase().replace(' ', '-')}`}
-                  >
-                    {hobby}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </Card>
       </div>
