@@ -41,7 +41,7 @@ export function Skills() {
                   <Badge
                     key={skill}
                     variant="outline"
-                    className="px-4 py-2 text-sm font-medium border-border hover:border-orange-500 hover:text-orange-500 hover:scale-110 transition-all cursor-default"
+                    className="px-4 py-2 text-sm font-medium cursor-default"
                     data-testid={`skill-${skill.toLowerCase().replace(/\s+/g, '-')}`}
                   >
                     {skill}
