@@ -1,0 +1,98 @@
+Build a personal portfolio website for Mithun Raj Urs T V based on the following resume details.
+The portfolio should follow a modern, minimal, and animated design style inspired by the Chaicode website (https://chaicode.com/
+) — with smooth transitions, dynamic section reveals, and responsive layouts.
+
+Use Next.js 14 (App Router), TypeScript, and Tailwind CSS for the frontend.
+Implement components modularly (e.g., Hero, About, Education, Projects, Skills, Certifications, Contact).
+The portfolio should be fully responsive, SEO-optimized, and deployable on Vercel.
+
+🧠 Portfolio Content
+
+Name: Mithun Raj Urs T V
+Location: Bengaluru, Karnataka
+Email: mithunursmithun@gmail.com
+
+Phone: +91-9900418013
+LinkedIn: linkedin.com/in/mithunurs
+
+📘 Education Section
+
+B.E in Information Science and Engineering — New Horizon College of Engineering, Bengaluru — CGPA: 9.38
+
+Pre-University (PUC) — Sri Sai Angels PU College, Chikkamagaluru — Percentage: 97.16%
+
+SSLC — Kuvempu Vidyanikethana, Chikkamagaluru — Percentage: 96.48%
+
+💻 Technical Skills
+
+Languages: C, C++, JavaScript, SQL, Java (basic), Python (basic)
+
+Databases: MySQL, PostgreSQL, MongoDB
+
+Frameworks & Tools: React.js, Next.js, Node.js, Express.js, TypeScript, Tailwind CSS, Streamlit, Laravel
+
+Other Tools: Git, GitHub, GitLab, AWS, Cloudinary
+
+Soft Skills: Time Management, Problem Solving, Teamwork, Communication
+
+🚀 Projects Section
+
+1️⃣ Kalika | Next.js, TypeScript
+A smart learning platform for SSLC & 2nd PUC students.
+
+Personalized lessons, interactive quizzes, streaks, and study guidance.
+
+“Kalika” (meaning “learning” in Kannada) offers an engaging learning journey.
+
+2️⃣ BioPredict | React, TypeScript, Node.js, PostgreSQL, Python (scikit-learn)
+AI-powered healthcare platform analyzing biomarkers from biological fluids.
+
+Preprocesses medical data and ensures secure storage using encryption.
+
+Built with a modern TypeScript stack for scalability and performance.
+
+🏆 Achievements
+
+Participant, FOSS Hackathon 2025
+
+Second Runner-Up, VTU State-Level Tug of War 2024
+
+📜 Certifications
+
+NPTEL Certification: Data Analytics with Python
+
+🎮 Hobbies
+
+Gym, Video Editing
+
+💡 Design Guidelines
+
+Use smooth scroll and Framer Motion for animations.
+
+Dark/light theme toggle using Tailwind and Context API.
+
+Navbar with animated underline hover effects.
+
+Project cards with hover tilt and shadow glow.
+
+Contact form (working with Formspree or EmailJS).
+
+Dynamic metadata and Open Graph tags for SEO.
+
+Use a clean geometric sans-serif font (like “Poppins” or “Inter”).
+
+Include a floating “Let’s Connect” button linking to LinkedIn.
+
+📦 Output Deliverables
+
+next.config.js, tailwind.config.js, and project setup files.
+
+Full folder structure with all components and pages.
+
+Example animations and transitions similar to Chaicode’s landing.
+
+Sectioned homepage with routing ready for expansion.
+
+Instructions for deployment on Vercel.
+
+Goal: A polished, professional portfolio website showcasing Mithun’s technical and creative skills, visually matching Chaicode’s elegance but personalized with Mithun’s branding and content.
