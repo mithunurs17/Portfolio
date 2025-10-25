@@ -5,6 +5,7 @@ import { Education } from '@/components/Education';
 import { Skills } from '@/components/Skills';
 import { Projects } from '@/components/Projects';
 import { Achievements } from '@/components/Achievements';
+import { Blog } from '@/components/Blog';
 import { Footer } from '@/components/Footer';
 import { FloatingConnectButton } from '@/components/FloatingConnectButton';
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Achievements />
+        <Blog />
       </main>
       <Footer />
       <FloatingConnectButton />

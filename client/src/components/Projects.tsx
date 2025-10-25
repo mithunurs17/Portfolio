@@ -1,4 +1,5 @@
-import { ExternalLink, Code2, Github } from 'lucide-react';
+import { useState } from 'react';
+import { ExternalLink, Code2, Github, Star, Eye, Calendar } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -12,6 +13,10 @@ const projects = [
     gradient: 'from-orange-400 to-orange-600',
     github: 'https://github.com/mithunurs17/Kalika',
     image: '/assets/kalika.png',
+    date: '2024',
+    status: 'Active',
+    stars: 12,
+    features: ['Personalized Learning', 'Interactive Quizzes', 'Progress Tracking', 'Study Streaks'],
   },
   {
     title: 'BioPredict',
@@ -21,6 +26,10 @@ const projects = [
     gradient: 'from-orange-500 to-orange-600',
     github: 'https://github.com/mithunurs17/BioPredict',
     image: '/assets/bio.png',
+    date: '2024',
+    status: 'Active',
+    stars: 8,
+    features: ['AI Analysis', 'Data Security', 'Medical Data Processing', 'Real-time Results'],
   },
   {
     title: 'PancreaScan',
@@ -30,6 +39,10 @@ const projects = [
     gradient: 'from-orange-600 to-orange-700',
     github: 'https://github.com/mithunurs17/Pancreatic-Cancer-Detection-using-Deep-Learning',
     image: '/assets/pancrea.png',
+    date: '2023',
+    status: 'Research',
+    stars: 15,
+    features: ['CNN Models', 'Medical Imaging', 'Cancer Detection', 'High Accuracy'],
   },
   {
     title: 'BloodConnect',
@@ -39,10 +52,16 @@ const projects = [
     gradient: 'from-orange-700 to-orange-800',
     github: 'https://github.com/mithunurs17/BloodConnect',
     image: '/assets/blood.png',
+    date: '2023',
+    status: 'Active',
+    stars: 6,
+    features: ['Donor Matching', 'Location-based Search', 'Emergency Alerts', 'Community Network'],
   },
 ];
 
 export function Projects() {
+  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
+
   return (
     <section id="projects" className="py-16 md:py-24 lg:py-32 bg-accent/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
