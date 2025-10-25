@@ -23,7 +23,7 @@ const allSkills = [
   { name: 'GitHub', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
   { name: 'GitLab', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg' },
   { name: 'AWS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
-  { name: 'Cloudinary', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudinary/cloudinary-original-wordmark.svg' },
+  { name: 'Cloudinary', logo: 'https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg' },
 ];
 
 // Arrange skills in irregular lines: 2, 4, 3, 4, 3, 4, 2
