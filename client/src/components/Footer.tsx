@@ -23,7 +23,7 @@ export function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/mithunurs17"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover-elevate transition-all text-muted-foreground hover:text-orange-500"
@@ -43,9 +43,6 @@ export function Footer() {
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
               © {currentYear} Mithun Raj Urs T V. All rights reserved.
-            </p>
-            <p className="text-xs text-muted-foreground mt-2">
-              Built with React, TypeScript & Tailwind CSS
             </p>
           </div>
 
