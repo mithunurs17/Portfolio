@@ -149,25 +149,39 @@ export function Hero() {
                     : 'bg-gradient-to-b from-orange-400/20 to-transparent'
                 }`}></div>
 
-              {/* Image container */}
-              <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden">
-                <img
-                  src="/assets/image.png"
-                  alt="Mithun Raj Urs T V"
-                  // 8. Set mix-blend to normal
-                  className="w-full h-full object-cover object-center mix-blend-normal"
-                  style={{
-                    filter: 'contrast(1.1) brightness(1.05) saturate(1.1)',
-                    // 9. Removed mix-blend-mode from style
-                  }}
-                />
-                
-                {/* Subtle border camouflage */}
-                <div className="absolute inset-0 rounded-full border-2 border-transparent bg-gradient-to-br from-orange-500/10 via-transparent to-orange-600/10"></div>
-                
-                {/* Additional spotlight overlay (kept this one for a nice fill) */}
-                <div className="absolute inset-0 bg-gradient-radial from-orange-500/15 via-transparent to-transparent"></div>
-              </div>
+             {/* Image container */}
+<div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden bg-black">
+  <img
+    src="/assets/img.png"
+    alt="Mithun Raj Urs T V"
+    className="w-full h-full object-contain object-center"
+    style={{
+      filter: 'contrast(1.1) brightness(1.05) saturate(1.1)',
+    }}
+  />
+
+  {/* Full black fade background blending with edges */}
+  <div
+    className="absolute inset-0 rounded-full pointer-events-none"
+    style={{
+      background:
+        'radial-gradient(circle at center, rgba(0,0,0,0) 75%, rgba(0,0,0,1) 100%)',
+    }}
+  />
+
+  {/* Soft glow ring for smooth blending */}
+  <div
+    className="absolute inset-0 rounded-full bg-gradient-to-br from-orange-500/10 via-transparent to-orange-600/10"
+  ></div>
+
+  {/* Gentle top light overlay */}
+  <div
+    className="absolute inset-0 rounded-full bg-gradient-to-b from-orange-500/10 via-transparent to-transparent"
+  ></div>
+</div>
+
+
+
             </div>
           </div>
         </div>
