@@ -12,7 +12,7 @@ const projects = [
     tech: ['Next.js', 'TypeScript', 'React'],
     gradient: 'from-orange-400 to-orange-600',
     github: 'https://github.com/mithunurs17/Kalika',
-    live: 'https://github.com/mithunurs17/Kalika',
+    live: 'https://kalika-3.onrender.com',
     image: '/assets/kalika.png',
     date: '2024',
     status: 'Active',
