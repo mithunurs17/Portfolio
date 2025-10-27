@@ -152,9 +152,9 @@ export function Hero() {
              {/* Image container */}
 <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden bg-black">
   <img
-    src="/assets/img.png"
+    src="/assets/image.png"
     alt="Mithun Raj Urs T V"
-    className="w-full h-full object-contain object-center"
+    className="w-full h-full object-cover object-center"
     style={{
       filter: 'contrast(1.1) brightness(1.05) saturate(1.1)',
     }}
