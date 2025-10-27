@@ -12,6 +12,7 @@ const projects = [
     tech: ['Next.js', 'TypeScript', 'React'],
     gradient: 'from-orange-400 to-orange-600',
     github: 'https://github.com/mithunurs17/Kalika',
+    live: 'https://github.com/mithunurs17/Kalika',
     image: '/assets/kalika.png',
     date: '2024',
     status: 'Active',
@@ -25,6 +26,7 @@ const projects = [
     tech: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Python (scikit-learn)'],
     gradient: 'from-orange-500 to-orange-600',
     github: 'https://github.com/mithunurs17/BioPredict',
+    live: 'https://biopredict-adpn.onrender.com/',
     image: '/assets/bio.png',
     date: '2024',
     status: 'Active',
@@ -38,6 +40,7 @@ const projects = [
     tech: ['Streamlit', 'Python', 'Deep Learning'],
     gradient: 'from-orange-600 to-orange-700',
     github: 'https://github.com/mithunurs17/Pancreatic-Cancer-Detection-using-Deep-Learning',
+    live: 'https://pancreatic-cancer-detection-using-deep.onrender.com/',
     image: '/assets/pancrea.png',
     date: '2023',
     status: 'Research',
@@ -51,6 +54,7 @@ const projects = [
     tech: ['Node.js', 'JavaScript', 'HTML', 'CSS'],
     gradient: 'from-orange-700 to-orange-800',
     github: 'https://github.com/mithunurs17/BloodConnect',
+    live: 'https://bloodconnect-1-a8d0.onrender.com/',
     image: '/assets/blood.png',
     date: '2023',
     status: 'Active',
@@ -89,8 +93,12 @@ export function Projects() {
                 data-testid={`project-card-${index}`}
               >
                 <Card
+<<<<<<< HEAD
                   className="group relative overflow-hidden hover-elevate transition-all duration-100 hover:shadow-2xl hover:-translate-y-2 cursor-pointer h-full"
                   onClick={() => window.open(project.github, '_blank')}
+=======
+                  className="group relative overflow-hidden hover-elevate transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer h-full"
+>>>>>>> 963f170 (live project)
                 >
                   <div className={`absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r ${project.gradient} opacity-0 group-hover:opacity-100 transition-opacity`} />
 
@@ -110,8 +118,12 @@ export function Projects() {
                         <Code2 className="h-6 w-6 text-foreground" />
                       </div>
                       <div className="flex gap-2">
-                        <Github className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
-                        <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                          <Github className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
+                        </a>
+                        <a href={project.live} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
+                        </a>
                       </div>
                     </div>
 
@@ -150,7 +162,6 @@ export function Projects() {
               >
                 <Card
                   className="group relative overflow-hidden hover-elevate transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer h-full"
-                  onClick={() => window.open(project.github, '_blank')}
                 >
                   <div className={`absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r ${project.gradient} opacity-0 group-hover:opacity-100 transition-opacity`} />
 
@@ -169,9 +180,13 @@ export function Projects() {
                       <div className={`p-3 rounded-lg bg-gradient-to-r ${project.gradient} bg-opacity-10`}>
                         <Code2 className="h-6 w-6 text-foreground" />
                       </div>
-                      <div className="flex gap-2">
-                        <Github className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
-                        <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
+                       <div className="flex gap-2">
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                          <Github className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
+                        </a>
+                        <a href={project.live} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-orange-500 transition-colors" />
+                        </a>
                       </div>
                     </div>
 
