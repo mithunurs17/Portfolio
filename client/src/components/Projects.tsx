@@ -6,20 +6,6 @@ import { Button } from '@/components/ui/button';
 
 const projects = [
   {
-    title: 'Kalika',
-    description:
-      'A smart learning platform for SSLC & 2nd PUC students. Personalized lessons, interactive quizzes, streaks, and study guidance. "Kalika" (meaning "learning" in Kannada) offers an engaging learning journey.',
-    tech: ['Next.js', 'TypeScript', 'React'],
-    gradient: 'from-orange-400 to-orange-600',
-    github: 'https://github.com/mithunurs17/Kalika',
-    live: 'https://kalika-3.onrender.com',
-    image: '/assets/kalika.png',
-    date: '2024',
-    status: 'Active',
-    stars: 12,
-    features: ['Personalized Learning', 'Interactive Quizzes', 'Progress Tracking', 'Study Streaks'],
-  },
-  {
     title: 'BioPredict',
     description:
       'AI-powered healthcare platform analyzing biomarkers from biological fluids. Preprocesses medical data and ensures secure storage using encryption. Built with a modern TypeScript stack for scalability and performance.',
@@ -32,6 +18,34 @@ const projects = [
     status: 'Active',
     stars: 8,
     features: ['AI Analysis', 'Data Security', 'Medical Data Processing', 'Real-time Results'],
+  },
+  {
+    title: 'MeetMind-AI',
+    description:
+      'An intelligent meeting intelligence and action-item extraction platform. It uses advanced NLP techniques to analyze meeting transcripts, summarize discussions, and extract actionable items. Built with a modern TypeScript stack for scalability and performance.',
+    tech: ['Streamlit', 'FastAPI', 'JWT', 'Python (NLP)'],
+    gradient: 'from-orange-400 to-orange-600',
+    github: 'https://github.com/mithunurs17/MeetMind-AI.git',
+    live: 'https://meetmind-frontend-e0sb.onrender.com/',
+    image: '/assets/meetmind.png',
+    date: '2026',
+    status: 'Active',
+    stars: 12,
+    features: ['NLP Analysis', 'Meeting Summarization', 'Actionable Items', 'Real-time Collaboration'],
+  },
+  {
+    title: 'Kalika',
+    description:
+      'A smart learning platform for SSLC & 2nd PUC students. Personalized lessons, interactive quizzes, streaks, and study guidance. "Kalika" (meaning "learning" in Kannada) offers an engaging learning journey.',
+    tech: ['Next.js', 'TypeScript', 'React'],
+    gradient: 'from-orange-400 to-orange-600',
+    github: 'https://github.com/mithunurs17/Kalika',
+    live: 'https://kalika-3.onrender.com',
+    image: '/assets/kalika.png',
+    date: '2024',
+    status: 'Active',
+    stars: 12,
+    features: ['Personalized Learning', 'Interactive Quizzes', 'Progress Tracking', 'Study Streaks'],
   },
   {
     title: 'PancreaScan',
