@@ -11,20 +11,20 @@ const achievements = [
     year: '2025',
   },
   {
-    title: 'Second Runner-Up, VTU State-Level Tug of War',
+    title: 'Champions, VTU State-Level Tug of War',
     icon: Award,
-    description: 'Achieved second runner-up position in VTU State-Level Tug of War competition',
-    year: '2024',
-    images: ['/assets/tow1.jpg', '/assets/tow2.jpg', '/assets/tow3.jpg', '/assets/tow4.jpg'],
+    description: 'Achieved first place in VTU State-Level Tug of War competition',
+    year: '2025 - 2026',
+    images: ['/assets/tow1.jpeg', '/assets/tow2.jpg', '/assets/tow3.jpg', '/assets/tow4.png'],
   },
 ];
 
 const certifications = [
   {
-    title: 'Data Analytics with Python',
+    title: 'Software Testing',
     issuer: 'NPTEL',
-    description: 'Completed comprehensive certification in data analytics using Python',
-    pdf: '/assets/Data Analytics with Python.pdf',
+    description: 'Completed comprehensive certification in software testing',
+    pdf: '/assets/Software Testing.pdf',
   },
 ];
 
