@@ -5,9 +5,9 @@ const educationData = [
   {
     degree: 'B.E in Information Science and Engineering',
     institution: 'New Horizon College of Engineering, Bengaluru',
-    score: 'CGPA: 9.38',
+    score: 'CGPA: 9.31',
     year: '2026',
-    pdfPath: '/assets/1NH22IS086_6th sem.pdf',
+    pdfPath: '/assets/sem 8.png',
   },
   {
     degree: 'Pre-University (PUC)',
